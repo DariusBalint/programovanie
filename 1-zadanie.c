@@ -79,3 +79,12 @@ void prienik(int mnozinaA[],int mnozinaB[],int mnozinaC[] ){
 	}
 	
 }
+main()
+{
+		int i,j,mnozinaA[n]={},mnozinaB[n]={},mnozinaC[n+n]={},a,p=0;
+		printf("Zjednotenie: \n");
+		zjednotenie(mnozinaA,mnozinaB);
+		printf("\n prienik: \n");
+		prienik(mnozinaA,mnozinaB,mnozinaC);
+		return 0;
+}
